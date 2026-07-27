@@ -1,0 +1,155 @@
+# OWASP Subtractive Security Top 10 Project
+
+![OWASP Project Level](https://img.shields.io/badge/OWASP-Incubator%20Project-blue)
+![Standard](https://img.shields.io/badge/Specification-PER--1.0-orange)
+
+## Overview
+
+The OWASP Subtractive Security Top 10 Project is an initiative to identify, document, and promote the highest-impact opportunities for reducing cyber risk through the elimination of attack paths.
+
+Unlike traditional security guidance that focuses primarily on adding controls, the Subtractive Security Top 10 emphasizes the removal of unnecessary attack surface, trust relationships, protocols, privileges, services, and communication paths that enable adversary progression.
+
+The project is founded on the principle that the most effective security control is often the complete removal of an attack path rather than attempting to monitor or manage it.
+
+The long-term vision of the project is to establish attack-path elimination as a foundational security engineering discipline supported by measurable outcomes through the Path Erasure Rate (PER) standard.
+
+## Guiding Principle
+
+Attackers can only traverse paths that exist.
+
+The objective of Subtractive Security is to systematically eliminate or constrain those paths until adversary activity can no longer compose into material business impact.
+
+## Purpose
+
+The purpose of this project is to provide practical, evidence-based guidance for identifying and eliminating common attacker paths across operating systems, cloud platforms, identity systems, and enterprise environments.
+
+Each Top 10 focuses on attack paths whose removal produces disproportionate reductions in risk while minimizing operational impact.
+
+The project seeks to answer a simple question:
+
+> What can be removed to make an attack materially more difficult or impossible?
+
+## Relationship to the Path Erasure Rate Standard (PER 1.0)
+
+The Subtractive Security Top 10 Project is aligned with the OWASP Path Erasure Rate (PER) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md) 
+
+PER provides a methodology for measuring the effectiveness of security improvements by quantifying the reduction of adversary-accessible attack paths.
+
+$$\text{PER} = \frac{|P_{\text{erased}}|}{|P_{\text{eligible}}|}$$
+
+Where **$P_{\text{eligible}}$** represents valid, actionable attack paths identified within scope, and **$P_{\text{erased}}$** represents the subset where executable edges have been structurally removed.
+
+PER serves as the quantitative measurement framework for Subtractive Security.
+
+The Subtractive Security Top 10 identifies high-value attack paths whose elimination is expected to produce meaningful reductions in adversary capability, while PER provides the mechanism for validating and measuring those reductions.
+
+Together they establish a repeatable engineering process for attack-path discovery, prioritization, elimination, and measurement.
+
+- Identify attack paths
+- Measure attack-path exposure
+- Remove or constrain attack paths
+- Measure resulting reduction
+- Continuously improve security architecture
+
+## Hierarchy of Efficacy
+
+The project is based upon the principle that security controls do not provide equal levels of risk reduction.
+
+The hierarchy reflects a simple principle:
+
+Architectural Deletion > Architectural Constraint > Monitoring
+
+Whenever an attack path can be eliminated, elimination is preferred. If elimination is not feasible, the path should be constrained. Monitoring is reserved for residual paths that cannot be removed or sufficiently constrained.
+
+Subtractive Security prioritizes:
+
+### 1. Architectural Deletion
+Remove attack paths entirely.
+
+Examples:
+- Remove legacy protocols
+- Remove unnecessary privileges
+- Remove public exposure
+- Remove dormant identities
+- Remove unnecessary trust relationships
+
+### 2. Architectural Constraint
+Constrain attack paths that cannot be eliminated.
+
+Examples:
+- Segmentation
+- Permission boundaries
+- Conditional access
+- Private endpoints
+- Privilege restrictions
+
+### 3. Monitoring and Detection
+Monitor the residual risk that cannot be deleted or constrained.
+
+Examples:
+- Logging
+- Alerting
+- SIEM
+- IDS/IPS
+- Endpoint detection
+
+This hierarchy reflects the project's belief that the elimination of an attack path is generally more effective than detecting its use.
+
+## Project Structure
+
+The Subtractive Security Top 10 is intended to be a family of environment-specific guidance documents operating under a common engineering framework.
+
+Planned and proposed publications include:
+
+- Windows Subtractive Top 10
+- AWS Subtractive Top 10
+- Linux Subtractive Top 10
+- Identity and Access Management Subtractive Top 10
+- Active Directory Subtractive Top 10
+- SaaS Subtractive Top 10
+- Container and Kubernetes Subtractive Top 10
+- AI and LLM Infrastructure Subtractive Top 10
+
+Additional Top 10 lists may be developed as new environments and technologies emerge.
+
+## Project Goals
+
+- Promote attack-path elimination as a primary security strategy.
+- Encourage measurable security improvement through PER.
+- Provide actionable guidance for reducing architectural exposure.
+- Establish a common vocabulary for subtractive security engineering.
+- Improve security outcomes through evidence-based decision making.
+- Advance security as an engineering discipline grounded in measurable risk reduction.
+
+## Scope
+
+This project focuses on architectural improvements that reduce adversary reachability, privilege, mobility, and persistence opportunities.
+
+From a graph-theoretic perspective, the project focuses on reducing adversary reachability by eliminating or constraining executable edges within attack graphs.
+
+The objective is to reduce the number of paths capable of composing into material business impact. Recommendations are selected based on their potential to eliminate or materially constrain attacker paths rather than their popularity, compliance value, or operational visibility.
+
+
+## Contributing
+
+The OWASP Subtractive Security Top 10 Project welcomes contributions from security practitioners, researchers, architects, cloud engineers, platform engineers, and defenders interested in advancing attack-path reduction methodologies.
+
+Community feedback, empirical research, implementation experiences, and proposed attack-path removal techniques are encouraged.
+
+## Learn More
+
+- Path Erasure Rate (PER) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md)
+- Evidence-Based Security (https://subtractivesecurity.substack.com/p/the-law-of-subtractive-risk-moving)
+- Subtractive Security Engineering Framework (https://subtractivesecurity.substack.com/p/the-law-of-subtractive-risk-moving)
+
+---
+
+*"Security effectiveness is maximized when attack paths are removed, not merely observed."*
+
+## Licensing
+
+This project is open-source and released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). All documentation, specifications, and code are free to use, modify, and distribute for commercial and non-commercial purposes under the terms of the license.
+
+## Project Leaders
+
+- **Christopher Frenz** — Project Founder & Primary Author
