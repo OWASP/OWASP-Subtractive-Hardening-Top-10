@@ -134,6 +134,20 @@ A compromised cloud workload may leverage operating system attack paths. A compr
 
 Subtractive Security therefore promotes parallel attack-path reduction across all applicable layers of the technology stack.
 
+### Defense in Depth Through Layered Path Erasure
+
+Subtractive Security extends the traditional concept of defense in depth by emphasizing attack-path removal across multiple architectural layers.
+
+Rather than relying solely on independent monitoring or prevention technologies, organizations should seek to eliminate, reduce, or constrain the same attack path wherever it appears within the stack.
+
+Examples include:
+
+- Reducing administrative trust within Linux while simultaneously segmenting lateral movement at the network layer.
+- Restricting cloud identity trust relationships while eliminating operating-system-level privilege escalation paths.
+- Enforcing egress determinism at the endpoint, network, and cloud-control-plane layers.
+
+This approach creates multiple independently non-conductive boundaries that attackers must overcome. The result is defense in depth through layered path erasure rather than layered detection.
+
 The objective is not merely to harden individual components.
 
 The objective is to reduce the total attack-path conductivity of the system as a whole.
