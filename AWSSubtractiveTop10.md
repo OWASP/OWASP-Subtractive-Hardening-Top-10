@@ -511,10 +511,11 @@ The objective of Subtractive Hardening is to systematically eliminate or constra
 
 # References
 
-- OWASP Subtractive Hardening Top 10 Project
-- OWASP Path Erasure Rate (PER) Engineering Standard
-- Evidence-Based Security
-- The Law of Subtractive Risk
+- OWASP Subtractive Hardening Top 10 Project (https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/tree/main)
+- Path Erasure Rate (PER-1.0) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md)
+- Evidence-Based Security (https://subtractivesecurity.substack.com/p/the-cyber-falsifiability-crisis-and)
+- The Law of Subtractive Risk (https://subtractivesecurity.substack.com/p/the-law-of-subtractive-risk-moving)
+- The Science of Silence
 
 ---
 
