@@ -112,6 +112,32 @@ Planned and proposed publications include:
 
 Additional Top 10 lists may be developed as new environments and technologies emerge.
 
+## Stack Composition & Parallel Adoption
+
+The OWASP Subtractive Hardening Top 10 family is designed for composable, parallel execution.
+
+Individual Top 10 publications are not intended to be implemented in isolation. Modern enterprise systems are composed of multiple technology layers, each contributing unique attack paths, trust relationships, and opportunities for adversary progression.
+
+Securing an enterprise asset requires applying platform-specific subtractive controls concurrently across all relevant layers.
+
+Examples include:
+
+- AWS Subtractive Hardening + Linux Subtractive Hardening
+- Active Directory Subtractive Hardening + Windows Subtractive Hardening
+- Kubernetes Subtractive Hardening + Linux Subtractive Hardening
+- SaaS Subtractive Hardening + Identity and Access Management Subtractive Hardening
+- Azure Subtractive Hardening + Active Directory Subtractive Hardening
+
+Attack paths do not respect architectural boundaries.
+
+A compromised cloud workload may leverage operating system attack paths. A compromised workstation may leverage identity attack paths. A compromised identity may leverage cloud control-plane attack paths.
+
+Subtractive Security therefore promotes parallel attack-path reduction across all applicable layers of the technology stack.
+
+The objective is not merely to harden individual components.
+
+The objective is to reduce the total attack-path conductivity of the system as a whole.
+
 ## Project Goals
 
 - Promote attack-path elimination as a primary security strategy.
