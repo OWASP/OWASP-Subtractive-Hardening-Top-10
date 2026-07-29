@@ -95,22 +95,68 @@ Examples:
 
 This hierarchy reflects the project's belief that the elimination of an attack path is generally more effective than detecting its use.
 
-## Project Structure
+# Project Structure
 
-The Subtractive Security Top 10 is intended to be a family of environment-specific guidance documents operating under a common engineering framework.
+The OWASP Subtractive Hardening Top 10 is a family of platform-specific security engineering standards operating under a common set of universal architectural laws.
 
-Planned and proposed publications include:
+At the foundation of the framework is the OWASP Universal Subtractive Security Laws Top 10, which defines platform-agnostic attack-path reduction principles applicable across operating systems, cloud platforms, identity systems, SaaS environments, networks, embedded devices, and future technology domains.
 
-- Windows Subtractive Top 10
-- AWS Subtractive Top 10
-- Linux Subtractive Top 10
-- Identity and Access Management Subtractive Top 10
-- Active Directory Subtractive Top 10
-- SaaS Subtractive Top 10
-- Container and Kubernetes Subtractive Top 10
-- AI and LLM Infrastructure Subtractive Top 10
+Environment-specific standards provide reference implementations of these universal laws within particular technology stacks.
 
-Additional Top 10 lists may be developed as new environments and technologies emerge.
+## Universal Foundation
+
+- Universal Subtractive Security Laws Top 10
+
+## Published Platform Standards
+
+- Windows Subtractive Hardening Top 10
+- Linux Subtractive Hardening Top 10
+- Active Directory Subtractive Hardening Top 10
+- AWS Subtractive Hardening Top 10
+- Microsoft 365 Subtractive Hardening Top 10
+- Network Subtractive Hardening Top 10
+- IoT Subtractive Hardening Top 10
+- macOS Subtractive Hardening Top 10
+
+## Planned and Future Standards
+
+- Identity & Access Management (IAM) Subtractive Hardening Top 10
+- Azure Subtractive Hardening Top 10
+- Google Cloud Platform (GCP) Subtractive Hardening Top 10
+- Container & Kubernetes Subtractive Hardening Top 10
+- CI/CD & Software Supply Chain Subtractive Hardening Top 10
+- AI & LLM Infrastructure Subtractive Hardening Top 10
+- Medical Device Subtractive Hardening Top 10
+- Additional standards as new architectural domains emerge
+
+## Architectural Relationship
+
+```text
+Universal Security Laws
+        ↓
+Path Erasure Rate (PER)
+        ↓
+Platform Standards
+        ↓
+Implementation Controls
+```
+
+Each platform standard applies the same underlying architectural principles:
+
+- Reduce unnecessary reachability.
+- Reduce unnecessary trust relationships.
+- Reduce credential exposure.
+- Reduce privilege propagation.
+- Reduce executable attack paths.
+- Reduce control-plane exposure.
+- Reduce attack-surface area.
+- Enforce deterministic communications.
+- Constrain residual attack paths.
+- Measure structural improvement through PER.
+
+The implementation details vary by platform, but the underlying architectural laws remain consistent.
+
+These standards are designed for parallel adoption and layered deployment. When composed together, they provide enterprise-wide attack-path reduction across endpoint, server, identity, cloud, SaaS, network, and embedded-system environments.
 
 ## Stack Composition & Parallel Adoption
 
