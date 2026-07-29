@@ -31,7 +31,7 @@ The project seeks to answer a simple question:
 
 ## Relationship to the Path Erasure Rate Standard (PER 1.0)
 
-The Subtractive Security Top 10 Project is aligned with the OWASP Path Erasure Rate (PER) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md) 
+The Subtractive Security Top 10 Project is aligned with the Path Erasure Rate (PER) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md) 
 
 PER provides a methodology for measuring the effectiveness of security improvements by quantifying the reduction of adversary-accessible attack paths.
 
