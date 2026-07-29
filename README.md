@@ -136,7 +136,7 @@ Subtractive Security therefore promotes parallel attack-path reduction across al
 
 ### Defense in Depth Through Layered Path Erasure
 
-Subtractive Security extends the traditional concept of defense in depth by emphasizing attack-path removal across multiple architectural layers.
+Subtractive Security recognizes that all controls, including subtractive controls, may fail due to misconfiguration, operational drift, incomplete implementation, or changing business requirements. Subtractive Security, therefore, extends the traditional concept of defense in depth by emphasizing attack-path removal across multiple architectural layers.
 
 Rather than relying solely on independent monitoring or prevention technologies, organizations should seek to eliminate, reduce, or constrain the same attack path wherever it appears within the stack.
 
