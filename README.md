@@ -18,6 +18,7 @@ The long-term vision of the project is to establish attack-path elimination as a
 Attackers can only traverse paths that exist.
 
 The objective of Subtractive Security is to systematically eliminate or constrain those paths until adversary activity can no longer compose into material business impact.
+<img width="1536" height="1024" alt="EraseRoads" src="https://github.com/user-attachments/assets/a6b1a1cd-d6cb-4c43-b081-7d32291e71c5" />
 
 ## Purpose
 
@@ -197,6 +198,7 @@ This approach creates multiple independently non-conductive boundaries that atta
 The objective is not merely to harden individual components.
 
 The objective is to reduce the total attack-path conductivity of the system as a whole.
+<img width="1536" height="1024" alt="Flammability" src="https://github.com/user-attachments/assets/18b9d839-fba6-4d5b-9ae4-c84ed4e8e07f" />
 
 ## Project Goals
 
