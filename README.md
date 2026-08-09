@@ -179,7 +179,7 @@ Platform Standards + Governance Standards
         ↓
 Implementation Controls
         ↓
-Measure Risk Reduction
+Measured Risk Reduction
 ```
 
 Each platform standard applies the same underlying architectural principles:
