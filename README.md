@@ -106,18 +106,24 @@ Environment-specific standards provide reference implementations of these univer
 
 ## Universal Foundation
 
-- Universal Subtractive Security Laws Top 10
+- ([Universal Subtractive Security Laws Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/UniversalSubtractiveLaws.md))
 
 ## Published Platform Standards
 
-- Windows Subtractive Hardening Top 10
-- Linux Subtractive Hardening Top 10
-- Active Directory Subtractive Hardening Top 10
-- AWS Subtractive Hardening Top 10
-- Microsoft 365 Subtractive Hardening Top 10
-- Network Subtractive Hardening Top 10
-- IoT Subtractive Hardening Top 10
-- macOS Subtractive Hardening Top 10
+- ([Active Directory Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/ActiveDirectorySubtractiveTop10.md))
+- ([AI Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/AISubtractiveTop10.md))
+- ([Application Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/ApplicationSubtractiveTop10.md))
+- ([AWS Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/AWSSubtractiveTop10.md))
+- ([CI/CD Pipeline Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/CICDPipelineSubtractiveTop10.md))
+- ([Datastore Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/DatastoreSubtractiveTop10.md))
+- ([HPC Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/HPCSubtractiveTop10.md))
+- ([IoT Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/IoTSubtractiveTop10.md))
+- ([Linux Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/LinuxSubtractiveTop10.md))
+- ([macOS Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/macOSSubtractiveTop10.md))
+- ([Microsoft 365 Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/M365SubtractiveTop10.md))
+- ([Network Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/NetworkSubtractiveTop10.md))
+- ([Physical Security Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/PhysicalSubtractiveTop10.md))
+- ([Windows Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/WindowsSubtractiveTop10.md))
 
 ## Planned and Future Standards
 
@@ -125,8 +131,6 @@ Environment-specific standards provide reference implementations of these univer
 - Azure Subtractive Hardening Top 10
 - Google Cloud Platform (GCP) Subtractive Hardening Top 10
 - Container & Kubernetes Subtractive Hardening Top 10
-- CI/CD & Software Supply Chain Subtractive Hardening Top 10
-- AI & LLM Infrastructure Subtractive Hardening Top 10
 - Medical Device Subtractive Hardening Top 10
 - Additional standards as new architectural domains emerge
 
