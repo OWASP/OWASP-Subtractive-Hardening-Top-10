@@ -148,6 +148,25 @@ Together these standards transform attack-path reduction from an architectural f
 - Medical Device Subtractive Hardening Top 10
 - Additional standards as new architectural domains emerge
 
+## Security Operating Model
+
+The OWASP Subtractive Security Top 10 Project is more than a collection of hardening guides.
+
+The project combines:
+
+- Universal Security Laws
+- Path Erasure Rate (PER)
+- Platform Hardening Standards
+- Governance Standards
+
+into a repeatable security engineering operating model.
+
+Platform standards identify attack paths that should be removed.
+
+Governance standards determine how attack paths are prioritized, how residual paths are managed, and how third-party relationships are governed.
+
+Together these standards provide a complete framework for reducing attack-path availability through measurable architectural improvement.
+
 ## Architectural Relationship
 
 ```text
