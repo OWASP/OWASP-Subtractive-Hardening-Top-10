@@ -108,6 +108,20 @@ Environment-specific standards provide reference implementations of these univer
 
 - ([Universal Subtractive Security Laws Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/UniversalSubtractiveLaws.md))
 
+## Governance Standards
+
+The OWASP Subtractive Security Top 10 Project includes governance standards that operationalize attack-path reduction within security programs.
+
+These standards provide guidance for managing risk where attack paths cannot yet be eliminated, prioritizing remediation work according to attacker capability reduction, and governing external relationships that introduce new attack paths.
+
+Published Governance Standards:
+
+- ([Subtractive Exception & Security Debt Management Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveExceptionHandling.md))
+- ([Subtractive Vulnerability & Path Erasure Management Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveVulnerabilityManagement.md))
+- ([Subtractive Third-Party Risk & Integration Governance Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveTPRM.md))
+
+Together these standards transform attack-path reduction from an architectural framework into a practical security operating model.
+
 ## Published Platform Standards
 
 - ([Active Directory Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/ActiveDirectorySubtractiveTop10.md))
@@ -141,9 +155,11 @@ Universal Security Laws
         ↓
 Path Erasure Rate (PER)
         ↓
-Platform Standards
+Platform Standards + Governance Standards
         ↓
 Implementation Controls
+        ↓
+Measure Risk Reduction
 ```
 
 Each platform standard applies the same underlying architectural principles:
