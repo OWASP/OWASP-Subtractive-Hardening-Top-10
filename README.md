@@ -120,6 +120,7 @@ Published Governance Standards:
 - ([Subtractive Vulnerability & Path Erasure Management Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveVulnerabilityManagement.md))
 - ([Subtractive Third-Party Risk & Integration Governance Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveTPRM.md))
 - ([Subtractive Control Validation Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveControlValidation.md))
+- ([Subtractive Baselining Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveBaselines.md))
 
 Together these standards transform attack-path reduction from an architectural framework into a practical security operating model.
 
