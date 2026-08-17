@@ -94,7 +94,7 @@ Examples:
 - IDS/IPS
 - Endpoint detection
 
-This hierarchy reflects the project's belief that the elimination of an attack path is generally more effective than detecting its use.
+This hierarchy reflects the project's belief that the elimination of an attack path is generally more effective than detecting its use as described in the [Assumption Burden Principle](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/HierarchyOfEfficacy.md). 
 
 # Project Structure
 
