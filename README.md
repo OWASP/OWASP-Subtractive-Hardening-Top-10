@@ -123,6 +123,7 @@ Published Governance Standards:
 - ([Subtractive Baselining Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveBaselines.md))
 - ([Subtractive Herd Immunity Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveHerdImmunity.md))
 - ([Subtractive Alert RCA Standard](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SubtractiveAlertRCA.md))
+- ([Security Vendor Assessment](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SecurityVendorAssessment.md))
 
 Together these standards transform attack-path reduction from an architectural framework into a practical security operating model.
 
