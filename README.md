@@ -142,6 +142,7 @@ Together these standards transform attack-path reduction from an architectural f
 - ([Microsoft 365 Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/M365SubtractiveTop10.md))
 - ([Network Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/NetworkSubtractiveTop10.md))
 - ([Physical Security Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/PhysicalSubtractiveTop10.md))
+- ([Salesforce Security Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/SalesforceSubtractiveTop10.md))
 - ([Windows Subtractive Hardening Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/WindowsSubtractiveTop10.md))
 
 ## Planned and Future Standards
