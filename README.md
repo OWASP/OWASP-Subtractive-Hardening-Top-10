@@ -107,6 +107,7 @@ Environment-specific standards provide reference implementations of these univer
 ## Universal Foundation
 
 - ([Universal Subtractive Security Laws Top 10](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/UniversalSubtractiveLaws.md))
+- ([Attack Paths as Failure Modes](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/AttackPathFailureModes.md))
 
 ## Governance Standards
 
@@ -275,6 +276,7 @@ Community feedback, empirical research, implementation experiences, and proposed
 - Path Erasure Rate (PER) Engineering Standard (https://github.com/cfrenz/Path-Erasure-Engine/blob/main/PER-1.0_Engineering_Specification.md)
 - Evidence-Based Security (https://subtractivesecurity.substack.com/p/the-cyber-falsifiability-crisis-and)
 - Subtractive Security Engineering Framework (https://subtractivesecurity.substack.com/p/the-law-of-subtractive-risk-moving)
+- Subtractive Security Substack (https://subtractivesecurity.substack.com/) 
 
 ---
 
