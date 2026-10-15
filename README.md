@@ -52,6 +52,8 @@ Together they establish a repeatable engineering process for attack-path discove
 - Measure resulting reduction
 - Continuously improve security architecture
 
+A reference implementation of how to calculate PER is available at (https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/tree/main/PER).
+
 ## Hierarchy of Efficacy
 
 The project is based upon the principle that security controls do not provide equal levels of risk reduction.
