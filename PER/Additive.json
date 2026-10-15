@@ -1,0 +1,25 @@
+{
+  "edges": [
+    {
+      "id": "workstation->db_prod:445",
+      "source": "workstation",
+      "target": "db_prod",
+      "control_type": "dynamic_valve",
+      "note": "Brokered by Just-In-Time access gateway with 15-minute ephemeral tokens"
+    },
+    {
+      "id": "workstation->db_prod:3389",
+      "source": "workstation",
+      "target": "db_prod",
+      "control_type": "monitoring",
+      "note": "SIEM alert rule triggered on session initiation"
+    },
+    {
+      "id": "container->metadata_svc:80",
+      "source": "container",
+      "target": "metadata_svc",
+      "control_type": "procedural_mediation",
+      "note": "WAF inspects requests"
+    }
+  ]
+}

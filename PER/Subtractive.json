@@ -1,0 +1,11 @@
+{
+  "edges": [
+    {
+      "id": "workstation->db_prod:3389",
+      "source": "workstation",
+      "target": "db_prod",
+      "control_type": "architectural_constraint",
+      "note": "Constrained to dedicated jump bastion"
+    }
+  ]
+}

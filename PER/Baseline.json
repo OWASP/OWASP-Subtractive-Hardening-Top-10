@@ -1,0 +1,8 @@
+{
+  "edges": [
+    {"id": "workstation->db_prod:445", "source": "workstation", "target": "db_prod", "capability": "smb", "in_scope": true},
+    {"id": "workstation->db_prod:3389", "source": "workstation", "target": "db_prod", "capability": "rdp", "in_scope": true},
+    {"id": "container->metadata_svc:80", "source": "container", "target": "metadata_svc", "capability": "http", "in_scope": true},
+    {"id": "app_tier->db_prod:5432", "source": "app_tier", "target": "db_prod", "capability": "sql", "in_scope": false}
+  ]
+}
