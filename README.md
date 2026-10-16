@@ -98,6 +98,12 @@ Examples:
 
 This hierarchy reflects the project's belief that the elimination of an attack path is generally more effective than detecting its use as described in the [Assumption Burden Principle](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/HierarchyOfEfficacy.md). 
 
+## Provenance & Lineage
+
+The Subtractive Hardening framework and the Path Erasure Rate (PER) metric trace their formal lineage through an unbroken, timestamped progression of peer-reviewed research, production-environment testing, and public disclosures dating from 2015 to the present. 
+
+To review the timestamped public record, peer-reviewed foundations, and historical development of the framework, refer to [**Lineage & Prior Art (Lineage.md)**](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/Lineage.md).
+
 # Project Structure
 
 The OWASP Subtractive Hardening Top 10 is a family of platform-specific security engineering standards operating under a common set of universal architectural laws.
