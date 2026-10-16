@@ -310,7 +310,7 @@ The narrower claim is that a documented progression connects:
 15. OWASP. "OWASP Subtractive Security Top 10." [View the OWASP project repository](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10)
 
 
-### Third-Party Enterprise Validation (2017)
+### Third-Party Enterprise Validation (2017 & 2018)
 * **Extreme Networks Case Study (2018):** *"Healthcare Provider Enables Zero Trust Micro-Segmented Network to Reduce Security Threats"* — Documenting production endpoint-level micro-segmentation and explicit Zero Trust deployment at Interfaith Medical Center.
 * **VMware Case Study (2017):** *"Interfaith Medical Center"* — Validating production hypervisor-level micro-segmentation, deterministic elimination of east-west lateral traversal, and alignment with NIST guidelines.
 ---
