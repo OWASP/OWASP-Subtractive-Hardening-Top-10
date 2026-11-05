@@ -118,6 +118,7 @@ Environment-specific standards provide reference implementations of these univer
 - ([Attack Paths as Failure Modes](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/AttackPathFailureModes.md))
 - ([Architectural Kerckhoffs Test](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/ArchitecturalKerckhoffsTest.md))
 - ([Attacker Optionality Principle](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/AttackerOptionalityPrinciple.md))
+- ([Maintenance Surface Principle](https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10/blob/main/MaintenanceSurfacePrinciple.md))
 
 ## Governance Standards
 
