@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this specification or framework, please cite it using the metadata below."
+title: "OWASP Subtractive Hardening Top 10"
+type: dataset
+authors:
+  - family-names: "Frenz"
+    given-names: "Christopher"
+url: "https://github.com/OWASP/OWASP-Subtractive-Hardening-Top-10"
+version: "1.0.0"
+date-released: 2026
+license: "Apache-2.0"
